@@ -1,0 +1,29 @@
+<svg viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
+<rect width="800" height="450" fill="#0b080c"/>
+<text x="400" y="40" text-anchor="middle" fill="#c2a4ff" font-family="Arial" font-size="22" font-weight="bold">CI/CD Pipeline on EC2</text>
+
+<rect x="30" y="200" width="130" height="70" rx="8" fill="#161217" stroke="#eae5ec" stroke-width="1.5"/>
+<text x="95" y="240" text-anchor="middle" fill="#eae5ec" font-family="Arial" font-size="13">GitHub</text>
+<text x="95" y="258" text-anchor="middle" fill="#a8a2ad" font-family="Arial" font-size="11">git push</text>
+
+<rect x="215" y="200" width="150" height="70" rx="8" fill="#1e1824" stroke="#c2a4ff" stroke-width="2"/>
+<text x="290" y="230" text-anchor="middle" fill="#eae5ec" font-family="Arial" font-size="13">GitHub Actions</text>
+<text x="290" y="250" text-anchor="middle" fill="#a8a2ad" font-family="Arial" font-size="11">Build + Test</text>
+
+<rect x="420" y="200" width="150" height="70" rx="8" fill="#1e1824" stroke="#0db7ed" stroke-width="2"/>
+<text x="495" y="230" text-anchor="middle" fill="#eae5ec" font-family="Arial" font-size="13">Docker Image</text>
+<text x="495" y="250" text-anchor="middle" fill="#a8a2ad" font-family="Arial" font-size="11">Push to Registry</text>
+
+<rect x="625" y="120" width="150" height="70" rx="8" fill="#1e1824" stroke="#ff9900" stroke-width="2"/>
+<text x="700" y="150" text-anchor="middle" fill="#eae5ec" font-family="Arial" font-size="13">EC2 Instance</text>
+<text x="700" y="170" text-anchor="middle" fill="#a8a2ad" font-family="Arial" font-size="11">Deploy Container</text>
+
+<rect x="625" y="280" width="150" height="70" rx="8" fill="#1e1824" stroke="#ff9900" stroke-width="2"/>
+<text x="700" y="310" text-anchor="middle" fill="#eae5ec" font-family="Arial" font-size="13">Nginx</text>
+<text x="700" y="330" text-anchor="middle" fill="#a8a2ad" font-family="Arial" font-size="11">Reverse Proxy</text>
+
+<line x1="160" y1="235" x2="215" y2="235" stroke="#eae5ec" stroke-width="2"/>
+<line x1="365" y1="235" x2="420" y2="235" stroke="#c2a4ff" stroke-width="2"/>
+<line x1="570" y1="220" x2="625" y2="170" stroke="#0db7ed" stroke-width="2"/>
+<line x1="700" y1="190" x2="700" y2="280" stroke="#ff9900" stroke-width="2"/>
+</svg>

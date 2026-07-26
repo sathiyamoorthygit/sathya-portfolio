@@ -1,0 +1,29 @@
+<svg viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
+<rect width="800" height="450" fill="#0b080c"/>
+<text x="400" y="40" text-anchor="middle" fill="#c2a4ff" font-family="Arial" font-size="22" font-weight="bold">Terraform Infrastructure as Code</text>
+
+<rect x="60" y="130" width="180" height="90" rx="10" fill="#161217" stroke="#8250df" stroke-width="2"/>
+<text x="150" y="165" text-anchor="middle" fill="#eae5ec" font-family="Arial" font-size="15" font-weight="bold">Terraform</text>
+<text x="150" y="188" text-anchor="middle" fill="#a8a2ad" font-family="Arial" font-size="12">main.tf / modules</text>
+
+<rect x="60" y="250" width="180" height="70" rx="10" fill="#161217" stroke="#8250df" stroke-width="2"/>
+<text x="150" y="280" text-anchor="middle" fill="#eae5ec" font-family="Arial" font-size="14">terraform apply</text>
+<text x="150" y="300" text-anchor="middle" fill="#a8a2ad" font-family="Arial" font-size="11">state managed in S3</text>
+
+<rect x="340" y="90" width="150" height="65" rx="8" fill="#1e1824" stroke="#ff9900" stroke-width="2"/>
+<text x="415" y="128" text-anchor="middle" fill="#eae5ec" font-family="Arial" font-size="14">EC2 Instances</text>
+
+<rect x="340" y="185" width="150" height="65" rx="8" fill="#1e1824" stroke="#ff9900" stroke-width="2"/>
+<text x="415" y="223" text-anchor="middle" fill="#eae5ec" font-family="Arial" font-size="14">S3 Buckets</text>
+
+<rect x="340" y="280" width="150" height="65" rx="8" fill="#1e1824" stroke="#ff9900" stroke-width="2"/>
+<text x="415" y="318" text-anchor="middle" fill="#eae5ec" font-family="Arial" font-size="14">IAM Roles</text>
+
+<rect x="580" y="185" width="160" height="65" rx="8" fill="#1e1824" stroke="#ff9900" stroke-width="2"/>
+<text x="660" y="223" text-anchor="middle" fill="#eae5ec" font-family="Arial" font-size="14">VPC / Networking</text>
+
+<line x1="240" y1="280" x2="340" y2="122" stroke="#8250df" stroke-width="2"/>
+<line x1="240" y1="280" x2="340" y2="217" stroke="#8250df" stroke-width="2"/>
+<line x1="240" y1="280" x2="340" y2="312" stroke="#8250df" stroke-width="2"/>
+<line x1="490" y1="217" x2="580" y2="217" stroke="#ff9900" stroke-width="2"/>
+</svg>
