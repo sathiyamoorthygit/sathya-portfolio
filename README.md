@@ -2,8 +2,6 @@
 
 A 3D developer portfolio, personalized for **Sathiyamoorthy M (Sathya)** — Aspiring AWS Cloud & DevOps Engineer.
 
-Originally based on the open-source template by [red1-for-hek](https://github.com/red1-for-hek/portfolio-website) (MIT License), rebranded and re-populated with Sathya's profile, projects, and skills.
-
 ---
 
 ## 🚀 Getting Started
